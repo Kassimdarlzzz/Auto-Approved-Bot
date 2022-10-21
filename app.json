@@ -10,7 +10,7 @@
         "Bot"
     ],
     "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-    "repository": "https://github.com/Ajsites2324/Auto-Approved-Bot",
+    "repository": "https://github.com/kassimdarlzzz/Auto-Approved-Bot",
     "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
     "env": {
         "API_ID": {
