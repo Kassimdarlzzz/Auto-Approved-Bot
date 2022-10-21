@@ -44,7 +44,7 @@ async def start(client: pr0fess0r_99, message: Message):
     approvedbot = await client.get_me() 
     button = [[ InlineKeyboardButton("✨ ᴏᴡɴᴇʀ ✨", url="https://t.me/kassim_darlzzz"), InlineKeyboardButton("ᴊᴏɪɴ 📢", url="t.me/vanakkamda_mapla") ],
               [ InlineKeyboardButton("🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🥺", url=f"http://t.me/{approvedbot.username}?startgroup=botstart") ]]
-    await client.send_message(chat_id=message.chat.id, text=f"**__Hello {message.from_user.mention} Iam Auto Approver Join Request Bot Just [Add Me To Your Group Channnl](http://t.me/{approvedbot.username}?startgroup=botstart||**__", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview=True)
+    await client.send_message(chat_id=message.chat.id, text=f"**__Hello {message.from_user.mention} Iam Auto Approver Join Request Bot 
 
 @pr0fess0r_99.on_chat_join_request(filters.group & filters.chat(CHAT_ID) if CHAT_ID else filters.group)
 async def autoapprove(client: pr0fess0r_99, message: ChatJoinRequest):
